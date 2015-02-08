@@ -1,0 +1,10 @@
+---
+indexes:
+    tag: "tags"
+    topic: "topics"
+taxonomies:
+    tag: "tags"
+    section: "sections"
+baseurl: ""
+title: "Coull Wiki"
+...
