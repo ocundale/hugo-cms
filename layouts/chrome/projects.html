@@ -2,10 +2,10 @@
 
 {{ if and .Data .Data.Pages }}
     <section id="projects">
-        <h3>projects</h3>
+        <h3>Quick Links</h3>
         <div>
             {{ range first 100 .Data.Pages }}
-                {{ if eq .Section "code"}}
+                {{ if eq .Section "test-pages"}}
                     {{ .Render "short"}}
                 {{ end }}
             {{ end }}
